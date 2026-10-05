@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Self-checkout: algoritmo do trocador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Self-checkout: devolução de troco</h1>
+    <p class="sub">Algoritmo guloso do trocador com as moedas 100, 25, 10, 5 e 1 centavos.</p>
+
+    <div class="form">
+      <label>Valor da compra (R$)
+        <input id="total" inputmode="decimal" placeholder="ex.: 37,85" value="37,85">
+      </label>
+      <label>Valor pago (R$)
+        <input id="pago" inputmode="decimal" placeholder="ex.: 50,00" value="50,00">
+      </label>
+      <button id="calc">Calcular troco</button>
+      <button id="reset" class="sec">Reiniciar</button>
+    </div>
+    <p id="erro" role="alert"></p>
+
+    <div class="resumo">
+      <div>Troco: <b id="troco">R$ 0,00</b></div>
+      <div>Restante: <b id="resto">0 centavos</b></div>
+      <div>Moedas usadas: <b id="qtd">0</b></div>
+    </div>
+
+    <div class="grid">
+      <table aria-label="Moedas disponíveis">
+        <thead>
+          <tr>
+            <th>Moeda</th>
+            <th>Usadas</th>
+          </tr>
+        </thead>
+        <tbody id="linhas"></tbody>
+      </table>
+      <div class="pilha-wrap">
+        <h2>Moedas devolvidas</h2>
+        <div id="pilha"></div>
+      </div>
+    </div>
+
+    <p id="msg" aria-live="polite"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
