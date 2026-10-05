@@ -59,13 +59,13 @@ O conjunto de moedas adotado é o dos slides da disciplina e não corresponde ao
 
 *(Nota: adicione as imagens reais na pasta `assets/` do repositório e substitua os links abaixo.)*
 
-![Tela inicial](assets/tela_inicial.png)
+![Tela inicial](./assets/print1.png)
 *Figura 1: Tela inicial com os campos de valor da compra e valor pago.*
 
-![Execução do algoritmo](assets/execucao.png)
+![Execução do algoritmo](./assets/print2.png)
 *Figura 2: Execução passo a passo, com linhas vermelhas e verdes e as moedas sendo empilhadas.*
 
-![Resultado final](assets/resultado.png)
+![Resultado final](./assets/print3.png)
 *Figura 3: Mensagem de conclusão com o total de moedas devolvidas.*
 
 ## Instalação
