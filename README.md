@@ -77,8 +77,8 @@ Não é necessário instalar Node.js, servidor ou bibliotecas. Siga os passos ab
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git https://github.com/projeto-de-algoritmos-2026/G35_Greed_PA-26.2
+cd G35_Greed_PA-26
 ```
 
 2. Abra o arquivo `index.html` no navegador (dois cliques, ou pelo terminal):
